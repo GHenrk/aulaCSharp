@@ -1,0 +1,17 @@
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\bin\Debug\net6.0-windows\Mini Calculadora.exe
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\bin\Debug\net6.0-windows\Mini Calculadora.deps.json
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\bin\Debug\net6.0-windows\Mini Calculadora.runtimeconfig.json
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\bin\Debug\net6.0-windows\Mini Calculadora.dll
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\bin\Debug\net6.0-windows\Mini Calculadora.pdb
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini Calculadora.csproj.AssemblyReference.cache
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini_Calculadora.MiniCalc.resources
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini Calculadora.csproj.GenerateResource.cache
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini Calculadora.AssemblyInfoInputs.cache
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini Calculadora.AssemblyInfo.cs
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini Calculadora.dll
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\refint\Mini Calculadora.dll
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini Calculadora.pdb
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\Mini Calculadora.genruntimeconfig.cache
+C:\Users\guest01\Documents\PrimeiroProjetoC#\Mini Calculadora\obj\Debug\net6.0-windows\ref\Mini Calculadora.dll

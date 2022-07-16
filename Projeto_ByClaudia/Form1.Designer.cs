@@ -237,7 +237,7 @@
             this.Controls.Add(this.TituloPrincipal);
             this.Controls.Add(this.pictureBox1);
             this.Name = "PrimeiroExemplo";
-            this.Text = "Exemplo Componentes";
+            this.Text = "Clube dos Chevetteiros";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
