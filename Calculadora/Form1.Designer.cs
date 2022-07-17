@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculadora));
             this.txbResultado = new System.Windows.Forms.TextBox();
             this.btn_maisOuMenos = new System.Windows.Forms.Button();
             this.btn_zero = new System.Windows.Forms.Button();
@@ -58,11 +59,13 @@
             // 
             // txbResultado
             // 
+            this.txbResultado.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.txbResultado.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbResultado.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txbResultado.Location = new System.Drawing.Point(15, 126);
+            this.txbResultado.Location = new System.Drawing.Point(18, 145);
             this.txbResultado.Margin = new System.Windows.Forms.Padding(5);
             this.txbResultado.Name = "txbResultado";
-            this.txbResultado.Size = new System.Drawing.Size(294, 52);
+            this.txbResultado.Size = new System.Drawing.Size(299, 45);
             this.txbResultado.TabIndex = 0;
             this.txbResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txbResultado.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -474,19 +477,22 @@
             // 
             // txbSecundario
             // 
+            this.txbSecundario.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.txbSecundario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbSecundario.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txbSecundario.Location = new System.Drawing.Point(131, 82);
+            this.txbSecundario.Location = new System.Drawing.Point(138, 108);
             this.txbSecundario.Margin = new System.Windows.Forms.Padding(5);
             this.txbSecundario.Name = "txbSecundario";
-            this.txbSecundario.Size = new System.Drawing.Size(179, 34);
+            this.txbSecundario.Size = new System.Drawing.Size(179, 27);
             this.txbSecundario.TabIndex = 25;
+            this.txbSecundario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(326, 525);
+            this.ClientSize = new System.Drawing.Size(323, 525);
             this.Controls.Add(this.txbSecundario);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button18);
@@ -514,9 +520,10 @@
             this.Controls.Add(this.btn_maisOuMenos);
             this.Controls.Add(this.txbResultado);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Calculadora";
             this.Text = "Calculadora";
+            this.TransparencyKey = System.Drawing.SystemColors.ActiveBorder;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
