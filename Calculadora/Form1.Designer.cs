@@ -46,14 +46,14 @@
             this.btn_6 = new System.Windows.Forms.Button();
             this.btn_5 = new System.Windows.Forms.Button();
             this.btn_4 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
+            this.btn_backspace = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
+            this.btn_ce = new System.Windows.Forms.Button();
+            this.btn_porcentagem = new System.Windows.Forms.Button();
             this.btn_div = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
+            this.btn_raizQuadrada = new System.Windows.Forms.Button();
+            this.btn_elevado = new System.Windows.Forms.Button();
+            this.btn_numeroInverso = new System.Windows.Forms.Button();
             this.txbSecundario = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -343,22 +343,22 @@
             this.btn_4.UseVisualStyleBackColor = false;
             this.btn_4.Click += new System.EventHandler(this.button16_Click);
             // 
-            // button17
+            // btn_backspace
             // 
-            this.button17.BackColor = System.Drawing.Color.Gainsboro;
-            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button17.Location = new System.Drawing.Point(242, 197);
-            this.button17.Margin = new System.Windows.Forms.Padding(2);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 50);
-            this.button17.TabIndex = 24;
-            this.button17.Text = "⌫";
-            this.button17.UseMnemonic = false;
-            this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
+            this.btn_backspace.BackColor = System.Drawing.Color.Gainsboro;
+            this.btn_backspace.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_backspace.FlatAppearance.BorderSize = 0;
+            this.btn_backspace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_backspace.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_backspace.Location = new System.Drawing.Point(242, 197);
+            this.btn_backspace.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_backspace.Name = "btn_backspace";
+            this.btn_backspace.Size = new System.Drawing.Size(75, 50);
+            this.btn_backspace.TabIndex = 24;
+            this.btn_backspace.Text = "⌫";
+            this.btn_backspace.UseMnemonic = false;
+            this.btn_backspace.UseVisualStyleBackColor = false;
+            this.btn_backspace.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -377,37 +377,39 @@
             this.button18.UseVisualStyleBackColor = false;
             this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
-            // button19
+            // btn_ce
             // 
-            this.button19.BackColor = System.Drawing.Color.Gainsboro;
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button19.Location = new System.Drawing.Point(84, 197);
-            this.button19.Margin = new System.Windows.Forms.Padding(2);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 50);
-            this.button19.TabIndex = 22;
-            this.button19.Text = "CE";
-            this.button19.UseMnemonic = false;
-            this.button19.UseVisualStyleBackColor = false;
+            this.btn_ce.BackColor = System.Drawing.Color.Gainsboro;
+            this.btn_ce.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_ce.FlatAppearance.BorderSize = 0;
+            this.btn_ce.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ce.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_ce.Location = new System.Drawing.Point(84, 197);
+            this.btn_ce.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_ce.Name = "btn_ce";
+            this.btn_ce.Size = new System.Drawing.Size(75, 50);
+            this.btn_ce.TabIndex = 22;
+            this.btn_ce.Text = "CE";
+            this.btn_ce.UseMnemonic = false;
+            this.btn_ce.UseVisualStyleBackColor = false;
+            this.btn_ce.Click += new System.EventHandler(this.btn_ce_Click);
             // 
-            // button20
+            // btn_porcentagem
             // 
-            this.button20.BackColor = System.Drawing.Color.Gainsboro;
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button20.Location = new System.Drawing.Point(5, 197);
-            this.button20.Margin = new System.Windows.Forms.Padding(2);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 50);
-            this.button20.TabIndex = 21;
-            this.button20.Text = "%";
-            this.button20.UseMnemonic = false;
-            this.button20.UseVisualStyleBackColor = false;
+            this.btn_porcentagem.BackColor = System.Drawing.Color.Gainsboro;
+            this.btn_porcentagem.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_porcentagem.FlatAppearance.BorderSize = 0;
+            this.btn_porcentagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_porcentagem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_porcentagem.Location = new System.Drawing.Point(5, 197);
+            this.btn_porcentagem.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_porcentagem.Name = "btn_porcentagem";
+            this.btn_porcentagem.Size = new System.Drawing.Size(75, 50);
+            this.btn_porcentagem.TabIndex = 21;
+            this.btn_porcentagem.Text = "%";
+            this.btn_porcentagem.UseMnemonic = false;
+            this.btn_porcentagem.UseVisualStyleBackColor = false;
+            this.btn_porcentagem.Click += new System.EventHandler(this.btn_porcentagem_Click);
             // 
             // btn_div
             // 
@@ -426,60 +428,62 @@
             this.btn_div.UseVisualStyleBackColor = false;
             this.btn_div.Click += new System.EventHandler(this.btn_div_Click);
             // 
-            // button22
+            // btn_raizQuadrada
             // 
-            this.button22.BackColor = System.Drawing.Color.Gainsboro;
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button22.Location = new System.Drawing.Point(163, 251);
-            this.button22.Margin = new System.Windows.Forms.Padding(2);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 50);
-            this.button22.TabIndex = 19;
-            this.button22.Text = "²√x";
-            this.button22.UseMnemonic = false;
-            this.button22.UseVisualStyleBackColor = false;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
+            this.btn_raizQuadrada.BackColor = System.Drawing.Color.Gainsboro;
+            this.btn_raizQuadrada.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_raizQuadrada.FlatAppearance.BorderSize = 0;
+            this.btn_raizQuadrada.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_raizQuadrada.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_raizQuadrada.Location = new System.Drawing.Point(163, 251);
+            this.btn_raizQuadrada.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_raizQuadrada.Name = "btn_raizQuadrada";
+            this.btn_raizQuadrada.Size = new System.Drawing.Size(75, 50);
+            this.btn_raizQuadrada.TabIndex = 19;
+            this.btn_raizQuadrada.Text = "²√x";
+            this.btn_raizQuadrada.UseMnemonic = false;
+            this.btn_raizQuadrada.UseVisualStyleBackColor = false;
+            this.btn_raizQuadrada.Click += new System.EventHandler(this.button22_Click);
             // 
-            // button23
+            // btn_elevado
             // 
-            this.button23.BackColor = System.Drawing.Color.Gainsboro;
-            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button23.Location = new System.Drawing.Point(84, 251);
-            this.button23.Margin = new System.Windows.Forms.Padding(2);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 50);
-            this.button23.TabIndex = 18;
-            this.button23.Text = "x²";
-            this.button23.UseMnemonic = false;
-            this.button23.UseVisualStyleBackColor = false;
+            this.btn_elevado.BackColor = System.Drawing.Color.Gainsboro;
+            this.btn_elevado.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_elevado.FlatAppearance.BorderSize = 0;
+            this.btn_elevado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_elevado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_elevado.Location = new System.Drawing.Point(84, 251);
+            this.btn_elevado.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_elevado.Name = "btn_elevado";
+            this.btn_elevado.Size = new System.Drawing.Size(75, 50);
+            this.btn_elevado.TabIndex = 18;
+            this.btn_elevado.Text = "x²";
+            this.btn_elevado.UseMnemonic = false;
+            this.btn_elevado.UseVisualStyleBackColor = false;
+            this.btn_elevado.Click += new System.EventHandler(this.button23_Click);
             // 
-            // button24
+            // btn_numeroInverso
             // 
-            this.button24.BackColor = System.Drawing.Color.Gainsboro;
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button24.Location = new System.Drawing.Point(5, 251);
-            this.button24.Margin = new System.Windows.Forms.Padding(2);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 50);
-            this.button24.TabIndex = 17;
-            this.button24.Text = "¹/x";
-            this.button24.UseMnemonic = false;
-            this.button24.UseVisualStyleBackColor = false;
+            this.btn_numeroInverso.BackColor = System.Drawing.Color.Gainsboro;
+            this.btn_numeroInverso.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_numeroInverso.FlatAppearance.BorderSize = 0;
+            this.btn_numeroInverso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_numeroInverso.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_numeroInverso.Location = new System.Drawing.Point(5, 251);
+            this.btn_numeroInverso.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_numeroInverso.Name = "btn_numeroInverso";
+            this.btn_numeroInverso.Size = new System.Drawing.Size(75, 50);
+            this.btn_numeroInverso.TabIndex = 17;
+            this.btn_numeroInverso.Text = "¹/x";
+            this.btn_numeroInverso.UseMnemonic = false;
+            this.btn_numeroInverso.UseVisualStyleBackColor = false;
+            this.btn_numeroInverso.Click += new System.EventHandler(this.button24_Click);
             // 
             // txbSecundario
             // 
             this.txbSecundario.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txbSecundario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbSecundario.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txbSecundario.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txbSecundario.Location = new System.Drawing.Point(138, 108);
             this.txbSecundario.Margin = new System.Windows.Forms.Padding(5);
             this.txbSecundario.Name = "txbSecundario";
@@ -494,14 +498,14 @@
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(323, 525);
             this.Controls.Add(this.txbSecundario);
-            this.Controls.Add(this.button17);
+            this.Controls.Add(this.btn_backspace);
             this.Controls.Add(this.button18);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
+            this.Controls.Add(this.btn_ce);
+            this.Controls.Add(this.btn_porcentagem);
             this.Controls.Add(this.btn_div);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
+            this.Controls.Add(this.btn_raizQuadrada);
+            this.Controls.Add(this.btn_elevado);
+            this.Controls.Add(this.btn_numeroInverso);
             this.Controls.Add(this.btn_multi);
             this.Controls.Add(this.btn_9);
             this.Controls.Add(this.btn_8);
@@ -549,14 +553,14 @@
         private Button btn_6;
         private Button btn_5;
         private Button btn_4;
-        private Button button17;
+        private Button btn_backspace;
         private Button button18;
-        private Button button19;
-        private Button button20;
+        private Button btn_ce;
+        private Button btn_porcentagem;
         private Button btn_div;
-        private Button button22;
-        private Button button23;
-        private Button button24;
+        private Button btn_raizQuadrada;
+        private Button btn_elevado;
+        private Button btn_numeroInverso;
         private TextBox txbSecundario;
     }
 }
