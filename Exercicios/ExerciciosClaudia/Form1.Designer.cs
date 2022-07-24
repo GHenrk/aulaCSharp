@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txbNum1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -38,6 +39,7 @@
             this.txbMenor = new System.Windows.Forms.TextBox();
             this.btnConferir = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txbNum1
@@ -97,10 +99,10 @@
             // 
             // txbMaior
             // 
-            this.txbMaior.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.txbMaior.BackColor = System.Drawing.SystemColors.Control;
             this.txbMaior.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMaior.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txbMaior.Location = new System.Drawing.Point(177, 230);
+            this.txbMaior.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txbMaior.Location = new System.Drawing.Point(184, 238);
             this.txbMaior.Name = "txbMaior";
             this.txbMaior.Size = new System.Drawing.Size(327, 27);
             this.txbMaior.TabIndex = 6;
@@ -108,10 +110,10 @@
             // 
             // txbMenor
             // 
-            this.txbMenor.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.txbMenor.BackColor = System.Drawing.SystemColors.Control;
             this.txbMenor.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbMenor.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txbMenor.Location = new System.Drawing.Point(177, 295);
+            this.txbMenor.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txbMenor.Location = new System.Drawing.Point(184, 303);
             this.txbMenor.Name = "txbMenor";
             this.txbMenor.Size = new System.Drawing.Size(327, 27);
             this.txbMenor.TabIndex = 7;
@@ -119,7 +121,7 @@
             // 
             // btnConferir
             // 
-            this.btnConferir.Location = new System.Drawing.Point(496, 153);
+            this.btnConferir.Location = new System.Drawing.Point(216, 197);
             this.btnConferir.Name = "btnConferir";
             this.btnConferir.Size = new System.Drawing.Size(75, 23);
             this.btnConferir.TabIndex = 8;
@@ -129,7 +131,7 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(496, 112);
+            this.btnLimpar.Location = new System.Drawing.Point(297, 197);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpar.TabIndex = 9;
@@ -137,12 +139,23 @@
             this.btnLimpar.UseVisualStyleBackColor = true;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(378, 197);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(75, 23);
+            this.btnSair.TabIndex = 10;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(663, 352);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnConferir);
             this.Controls.Add(this.txbMenor);
@@ -153,8 +166,9 @@
             this.Controls.Add(this.txbNum2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txbNum1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Maior e Menor";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,5 +186,6 @@
         private TextBox txbMenor;
         private Button btnConferir;
         private Button btnLimpar;
+        private Button btnSair;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.label1 = new System.Windows.Forms.Label();
             this.lstCaracteres = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -38,7 +39,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(278, 18);
+            this.label1.Location = new System.Drawing.Point(274, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(209, 28);
             this.label1.TabIndex = 0;
@@ -83,8 +84,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lstCaracteres);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Cadeia de Caracteres";
             this.ResumeLayout(false);
             this.PerformLayout();
 

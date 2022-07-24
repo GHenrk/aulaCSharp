@@ -30,7 +30,7 @@ namespace ExerciciosClaudia
             {
                 lstCaracteres.Items.Add(astr);
                 astr += "*";
-                //astr = astr + "*"; 
+                
             }
         }
 

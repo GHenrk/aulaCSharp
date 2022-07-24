@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.txbInicial = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,6 +44,7 @@
             this.lstPares = new System.Windows.Forms.ListBox();
             this.label7 = new System.Windows.Forms.Label();
             this.lstMultiplos = new System.Windows.Forms.ListBox();
+            this.btnSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txbInicial
@@ -91,7 +93,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(184, 28);
             this.label3.TabIndex = 5;
-            this.label3.Text = "SEQUENCIOMETRO";
+            this.label3.Text = "SEQUÊNCIOMETRO";
             // 
             // lstSequencia
             // 
@@ -104,7 +106,7 @@
             // 
             // btnSequencia
             // 
-            this.btnSequencia.Location = new System.Drawing.Point(209, 138);
+            this.btnSequencia.Location = new System.Drawing.Point(155, 142);
             this.btnSequencia.Name = "btnSequencia";
             this.btnSequencia.Size = new System.Drawing.Size(158, 23);
             this.btnSequencia.TabIndex = 7;
@@ -114,7 +116,7 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(424, 138);
+            this.btnLimpar.Location = new System.Drawing.Point(319, 142);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(158, 23);
             this.btnLimpar.TabIndex = 8;
@@ -185,11 +187,22 @@
             this.lstMultiplos.Size = new System.Drawing.Size(156, 229);
             this.lstMultiplos.TabIndex = 14;
             // 
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(483, 142);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(158, 23);
+            this.btnSair.TabIndex = 16;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lstMultiplos);
             this.Controls.Add(this.label6);
@@ -205,8 +218,9 @@
             this.Controls.Add(this.txbFinal);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txbInicial);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Sequênciometro";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,5 +243,6 @@
         private ListBox lstPares;
         private Label label7;
         private ListBox lstMultiplos;
+        private Button btnSair;
     }
 }
