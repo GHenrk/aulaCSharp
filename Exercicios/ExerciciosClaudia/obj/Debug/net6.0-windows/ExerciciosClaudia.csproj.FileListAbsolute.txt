@@ -41,3 +41,6 @@ C:\Users\gutoh\Documents\arquivosGit\aulaCSharp\Exercicios\ExerciciosClaudia\obj
 C:\Users\gutoh\Documents\arquivosGit\aulaCSharp\Exercicios\ExerciciosClaudia\obj\Debug\net6.0-windows\ExerciciosClaudia.Form6.resources
 C:\Users\gutoh\Documents\arquivosGit\aulaCSharp\Exercicios\ExerciciosClaudia\obj\Debug\net6.0-windows\ExerciciosClaudia.Form7.resources
 C:\Users\gutoh\Documents\arquivosGit\aulaCSharp\Exercicios\ExerciciosClaudia\obj\Debug\net6.0-windows\ExerciciosClaudia.Form1.resources
+C:\Users\guest01\Documents\aulaCSharp\Exercicios\ExerciciosClaudia\obj\Debug\net6.0-windows\ExerciciosClaudia.Form5.resources
+C:\Users\guest01\Documents\aulaCSharp\Exercicios\ExerciciosClaudia\obj\Debug\net6.0-windows\ExerciciosClaudia.Form6.resources
+C:\Users\guest01\Documents\aulaCSharp\Exercicios\ExerciciosClaudia\obj\Debug\net6.0-windows\ExerciciosClaudia.Form7.resources
