@@ -1,0 +1,17 @@
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\bin\Debug\net6.0-windows\ClasseAluno.exe
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\bin\Debug\net6.0-windows\ClasseAluno.deps.json
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\bin\Debug\net6.0-windows\ClasseAluno.runtimeconfig.json
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\bin\Debug\net6.0-windows\ClasseAluno.dll
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\bin\Debug\net6.0-windows\ClasseAluno.pdb
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.csproj.AssemblyReference.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.Form1.resources
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.csproj.GenerateResource.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.AssemblyInfoInputs.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.AssemblyInfo.cs
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.csproj.CoreCompileInputs.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.dll
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\refint\ClasseAluno.dll
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.pdb
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ClasseAluno.genruntimeconfig.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseAluno\obj\Debug\net6.0-windows\ref\ClasseAluno.dll
