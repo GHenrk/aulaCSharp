@@ -1,0 +1,17 @@
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\bin\Debug\net6.0-windows\ClasseHeranca.exe
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\bin\Debug\net6.0-windows\ClasseHeranca.deps.json
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\bin\Debug\net6.0-windows\ClasseHeranca.runtimeconfig.json
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\bin\Debug\net6.0-windows\ClasseHeranca.dll
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\bin\Debug\net6.0-windows\ClasseHeranca.pdb
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.csproj.AssemblyReference.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.Form1.resources
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.csproj.GenerateResource.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.AssemblyInfoInputs.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.AssemblyInfo.cs
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.csproj.CoreCompileInputs.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.dll
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\refint\ClasseHeranca.dll
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.pdb
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ClasseHeranca.genruntimeconfig.cache
+C:\Users\guest01\Documents\aulaCSharp\utilizandoClasses\ClasseHeranca\obj\Debug\net6.0-windows\ref\ClasseHeranca.dll
