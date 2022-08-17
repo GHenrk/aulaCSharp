@@ -132,12 +132,13 @@
             this.gpAqua.Controls.Add(this.txbInscricao);
             this.gpAqua.Controls.Add(this.label13);
             this.gpAqua.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gpAqua.Location = new System.Drawing.Point(83, 337);
+            this.gpAqua.Location = new System.Drawing.Point(89, 347);
             this.gpAqua.Name = "gpAqua";
-            this.gpAqua.Size = new System.Drawing.Size(526, 100);
+            this.gpAqua.Size = new System.Drawing.Size(498, 94);
             this.gpAqua.TabIndex = 22;
             this.gpAqua.TabStop = false;
             this.gpAqua.Text = "Informações Adicionais:";
+            this.gpAqua.Enter += new System.EventHandler(this.gpAqua_Enter);
             // 
             // txbInscricao
             // 
@@ -234,6 +235,7 @@
             this.txbAno.Name = "txbAno";
             this.txbAno.Size = new System.Drawing.Size(198, 29);
             this.txbAno.TabIndex = 23;
+            this.txbAno.TextChanged += new System.EventHandler(this.txbAno_TextChanged);
             // 
             // txbCor
             // 
@@ -312,7 +314,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(1139, 634);
+            this.ClientSize = new System.Drawing.Size(733, 634);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnCadastro);
             this.Controls.Add(this.txbProp);

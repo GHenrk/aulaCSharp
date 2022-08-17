@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.btnVisualize = new System.Windows.Forms.Button();
             this.gpOpcoes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -114,7 +115,8 @@
             this.btnCadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
             this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastrar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCadastrar.Location = new System.Drawing.Point(205, 405);
+            this.btnCadastrar.Location = new System.Drawing.Point(205, 423);
+            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(6);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(177, 40);
             this.btnCadastrar.TabIndex = 11;
@@ -130,12 +132,31 @@
             this.btnSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSair.Location = new System.Drawing.Point(388, 405);
+            this.btnSair.Location = new System.Drawing.Point(388, 423);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(6);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(167, 40);
             this.btnSair.TabIndex = 12;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // btnVisualize
+            // 
+            this.btnVisualize.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnVisualize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVisualize.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btnVisualize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
+            this.btnVisualize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVisualize.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVisualize.Location = new System.Drawing.Point(205, 475);
+            this.btnVisualize.Margin = new System.Windows.Forms.Padding(6);
+            this.btnVisualize.Name = "btnVisualize";
+            this.btnVisualize.Size = new System.Drawing.Size(350, 40);
+            this.btnVisualize.TabIndex = 13;
+            this.btnVisualize.Text = "Visualizar Veículos Cadastrados";
+            this.btnVisualize.UseVisualStyleBackColor = false;
+            this.btnVisualize.Click += new System.EventHandler(this.btnVisualize_Click);
             // 
             // Form1
             // 
@@ -143,6 +164,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.btnVisualize);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.label2);
@@ -169,5 +191,6 @@
         private Label label2;
         private Button btnCadastrar;
         private Button btnSair;
+        private Button btnVisualize;
     }
 }

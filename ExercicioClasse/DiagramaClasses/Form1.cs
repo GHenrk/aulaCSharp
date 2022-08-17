@@ -2,11 +2,17 @@ namespace DiagramaClasses
 {
     public partial class Form1 : Form
     {
+
+        int tipo = 0;
+        public List<Carro> listaCarros = new List<Carro>();
+        public List<Moto> listaMotos = new List<Moto>();
+        public List<Barco> listaBarcoes = new List<Barco>();
+        public List<JetSki> listaJetSkis = new List<JetSki>();
         public Form1()
         {
             InitializeComponent();
         }
-        int tipo= 0;
+        
 
         private void rdTerrestre_CheckedChanged(object sender, EventArgs e)
         {
@@ -47,6 +53,28 @@ namespace DiagramaClasses
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        public void listas(List<Carro> paramCarro, List<Moto> paramMoto, List<Barco> paramBarco, List<JetSki> paramJet)
+        {
+            listaCarros = paramCarro;
+            listaMotos = paramMoto;
+            listaBarcoes = paramBarco;
+            listaJetSkis = paramJet;
+        }
+
+        private void btnVisualize_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show(listaCarros[0].Proprietario);
+            Form3 tres = new Form3();
+            tres.recebeListas(listaCarros, listaMotos, listaBarcoes, listaJetSkis);
+            
+            tres.ShowDialog();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

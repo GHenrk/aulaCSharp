@@ -7,12 +7,8 @@ namespace DiagramaClasses
 {
     public class Aquatico : Veiculo
     {
-        public string nmrInscricao
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        private string nmrInscricao;
+
+        public string NmrInscricao { get => nmrInscricao; set => nmrInscricao = value; }
     }
 }
